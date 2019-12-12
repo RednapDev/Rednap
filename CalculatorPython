@@ -1,0 +1,15 @@
+
+num1 = float(input("Skriv in ditt första nummer: "))
+ob = (input("Skriv in vad du vill använda: "))
+num2 = float(input("Skriv in ditt andra nummer: "))
+
+if ob == "+":
+    print(num1 + num2)
+elif ob == "-":
+    print(num1 - num2)
+elif ob == "/":
+    print(num1 / num2)
+elif ob == "*":
+    print(num1 * num2)
+else:
+    print("Förlåt men nu förstog jag inte vad du menar...")
